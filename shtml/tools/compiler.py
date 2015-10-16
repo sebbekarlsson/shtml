@@ -4,7 +4,7 @@ import os
 import codecs
 import HTMLParser
 
-
+''' Compiler class, compiles shtml '''
 class Compiler():
     def __init__(self):
         self.parser =HTMLParser.HTMLParser()
