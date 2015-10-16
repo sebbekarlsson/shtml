@@ -1,0 +1,24 @@
+<div class='feed-items'>
+    <ul>
+        <li>
+            <div class='feed-item'>
+                This is a feed item
+            </div>
+        </li>
+        <li>
+            <div class='feed-item'>
+                This is a feed item
+            </div>
+        </li>
+        <li>
+            <div class='feed-item'>
+                This is a feed item
+            </div>
+        </li>
+        <li>
+            <div class='feed-item'>
+                This is a feed item
+            </div>
+        </li>
+    </ul>
+</div>
