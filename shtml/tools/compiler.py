@@ -8,11 +8,10 @@ import HTMLParser
 class Compiler():
     def __init__(self):
         self.parser =HTMLParser.HTMLParser()
-        
+
     def compile(self, file):
 
         full_path = os.path.dirname(os.path.realpath(file))
-
 
         tree = ET.parse(file)
         doc = tree.getroot()
@@ -28,5 +27,3 @@ class Compiler():
             txt = self.parser.unescape(ET.tostring(doc))
             f.write(txt)
             f.close()
-
-        
